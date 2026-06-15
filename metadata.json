@@ -1,0 +1,6 @@
+{
+  "name": "Gleet AI",
+  "description": "Never Miss Another Lead. Gleet AI instantly responds to new customer inquiries, answers common questions, and books appointments automatically.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

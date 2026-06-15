@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Michroma&family=JetBrains+Mono:wght@400;500;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+  --font-brand: "Michroma", sans-serif;
+
+  /* Fresh Elegant Light SaaS Colors */
+  --color-bg-primary: #FFFFFF;
+  --color-bg-secondary: #F8F9F8;
+  --color-bg-section: #F8F9F8;
+  --color-border-light: #E2E7E3;
+  --color-text-primary: #1B1F1D;
+  --color-text-secondary: #5E6762;
+
+  /* Harmonize sage green to (#5c7564) */
+  --color-sage-primary: #5c7564;
+  --color-sage-hover: #4d6153;
+  --color-sage-light: #f1f4f2;
+  --color-sage-border: #d4ddd8;
+}
+
+/* Custom fine-scrollbar for modern UI appearance */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
+
