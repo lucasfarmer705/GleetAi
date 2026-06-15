@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="100%" height="100%">
+  <!-- Background -->
+  <rect width="512" height="512" fill="#5c7564" />
+  
+  <!-- Hexagon Outer Boundary -->
+  <polygon 
+    points="151,74.14 361,74.14 466,256 361,437.86 151,437.86 46,256" 
+    fill="none" 
+    stroke="#ffffff" 
+    stroke-width="32" 
+    stroke-linejoin="miter"
+  />
+  
+  <!-- Diagonals forming the X -->
+  <line 
+    x1="151" y1="74.14" 
+    x2="361" y2="437.86" 
+    stroke="#ffffff" 
+    stroke-width="32" 
+    stroke-linecap="butt"
+  />
+  <line 
+    x1="361" y1="74.14" 
+    x2="151" y2="437.86" 
+    stroke="#ffffff" 
+    stroke-width="32" 
+    stroke-linecap="butt"
+  />
+</svg>
