@@ -380,10 +380,31 @@ export default function App() {
           </p>
           <div className="flex flex-wrap items-center justify-center gap-4 sm:gap-6 mt-6 text-[#1B1F1D] font-semibold text-xs tracking-tight">
             <div className="flex items-center gap-2.5 px-4 py-2 bg-white border border-border-light rounded-xl hover:border-[#5c7564]/30 shadow-xs">
-              <svg viewBox="0 0 100 100" className="w-5 h-5 shrink-0" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M50 5 L90 33 L90 67 L50 95 L10 67 L10 33 Z" fill="#00A3E0" />
-                <path d="M50 5 L50 95 L90 67 L90 33 Z" fill="#0082B4" />
-                <path d="M50 35 L72 48 L50 61 L28 48 Z" fill="#FFFFFF" />
+              <svg viewBox="0 0 100 100" className="w-5 h-5 shrink-0 text-[#1B1F1D]" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                {/* Crest Plume behind the head */}
+                <path d="M 22,36 C 22,18 40,12 56,18 C 59,19 61,21 62,24 C 51,21 41,26 34,34 C 29,38 26,44 25,50" stroke="currentColor" strokeWidth="4.5" strokeLinecap="round" fill="none" />
+                <path d="M 32,19 L 35,13 M 39,21 L 43,15 M 46,24 L 51,18 M 52,28 L 57,22" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" />
+                
+                {/* Helmet Dome and Visor */}
+                <path d="M 25,50 C 26,40 31,33 38,31 C 45,29 50,34 50,41 C 50,47 44,51 25,50 Z" />
+                <path d="M 27,43 L 31,55 L 38,46 Z" />
+                
+                {/* Flexed Arm */}
+                <path d="M 14,76 C 20,76 26,68 34,63 C 42,58 50,62 48,70 C 46,78 38,86 30,90 C 22,93 14,88 14,76 Z" />
+                {/* Forearm extending towards fist */}
+                <path d="M 34,63 C 40,60 50,58 56,64 C 60,69 58,76 54,80 L 42,74 Z" />
+                
+                {/* Wrench held diagonally */}
+                <g transform="rotate(-35 55 65)">
+                  {/* Handle of wrench */}
+                  <rect x="35" y="62" width="40" height="6" rx="2" fill="currentColor" />
+                  {/* Right jaw */}
+                  <path d="M 75,59 C 78,59 82,62 82,65 C 82,68 78,71 75,71 L 71,65 Z" />
+                  <path d="M 79,62 L 75,65 L 79,68" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" fill="none" />
+                  {/* Left jaw */}
+                  <path d="M 35,59 C 32,59 28,62 28,65 C 28,68 32,71 35,71 L 39,65 Z" />
+                  <path d="M 31,62 L 35,65 L 31,68" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" fill="none" />
+                </g>
               </svg>
               <span>ServiceTitan</span>
               <span className="text-[8px] font-brand font-normal bg-[#F3F5F4] text-[#5E6762] px-2 py-1 rounded border border-border-light uppercase">Planned</span>
