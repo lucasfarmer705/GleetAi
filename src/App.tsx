@@ -380,24 +380,49 @@ export default function App() {
           </p>
           <div className="flex flex-wrap items-center justify-center gap-4 sm:gap-6 mt-6 text-[#1B1F1D] font-semibold text-xs tracking-tight">
             <div className="flex items-center gap-2.5 px-4 py-2 bg-white border border-border-light rounded-xl hover:border-[#5c7564]/30 shadow-xs">
+              <svg viewBox="0 0 100 100" className="w-5 h-5 shrink-0" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M50 5 L90 33 L90 67 L50 95 L10 67 L10 33 Z" fill="#00A3E0" />
+                <path d="M50 5 L50 95 L90 67 L90 33 Z" fill="#0082B4" />
+                <path d="M50 35 L72 48 L50 61 L28 48 Z" fill="#FFFFFF" />
+              </svg>
               <span>ServiceTitan</span>
               <span className="text-[8px] font-brand font-normal bg-[#F3F5F4] text-[#5E6762] px-2 py-1 rounded border border-border-light uppercase">Planned</span>
             </div>
             <div className="flex items-center gap-2.5 px-4 py-2 bg-white border border-border-light rounded-xl hover:border-[#5c7564]/30 shadow-xs">
+              <svg viewBox="0 0 100 100" className="w-5 h-5 shrink-0" xmlns="http://www.w3.org/2000/svg">
+                <path d="M50 12 L15 42 H30 V82 H70 V42 H85 L50 12 Z" fill="#0073EC" />
+                <path d="M42 62 L48 68 L62 52" stroke="#FFFFFF" strokeWidth="6" strokeLinecap="round" strokeLinejoin="round" fill="none" />
+              </svg>
               <span>Housecall Pro</span>
               <span className="text-[8px] font-brand font-normal bg-[#F3F5F4] text-[#5E6762] px-2 py-1 rounded border border-border-light uppercase">Planned</span>
             </div>
             <div className="flex items-center gap-2.5 px-4 py-2 bg-white border border-border-light rounded-xl hover:border-[#5c7564]/30 shadow-xs">
+              <svg viewBox="0 0 100 100" className="w-5 h-5 shrink-0" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="50" cy="50" r="45" fill="#49B66E" />
+                <path d="M32 50 L45 63 L68 35" stroke="white" strokeWidth="10" strokeLinecap="round" strokeLinejoin="round" fill="none" />
+              </svg>
               <span>Jobber</span>
               <span className="text-[8px] font-brand font-normal bg-[#F3F5F4] text-[#5E6762] px-2 py-1 rounded border border-border-light uppercase">Planned</span>
             </div>
-            <div className="flex items-center gap-2.5 px-4 py-2 bg-white border border-border-light rounded-xl hover:border-[#5c7564]/30 shadow-xs">
+            <div className="flex items-center gap-2.5 px-4 py-2 bg-white border border-[#D9DFDB] rounded-xl hover:border-[#5c7564]/30 shadow-xs">
+              <svg viewBox="0 0 100 100" className="w-5 h-5 shrink-0" xmlns="http://www.w3.org/2000/svg">
+                <path d="M50 10 A40 40 0 1 0 90 50 A30 30 0 1 1 50 20 Z" fill="#005A9C" />
+                <path d="M50 20 A30 30 0 1 0 80 50 A20 20 0 1 1 50 30 Z" fill="#71BF44" />
+              </svg>
               <span>FieldEdge</span>
               <span className="text-[8px] font-brand font-normal bg-[#F3F5F4] text-[#5E6762] px-2 py-1 rounded border border-border-light uppercase">Planned</span>
             </div>
-            <div className="flex items-center gap-2.5 px-4 py-2 bg-white border border-border-light rounded-xl hover:border-[#5c7564]/30 shadow-xs">
+            <div className="flex items-center gap-2.5 px-4 py-2 bg-white border border-[#D9DFDB] rounded-xl hover:border-[#5c7564]/30 shadow-xs">
+              <svg viewBox="0 0 48 48" className="w-5 h-5 shrink-0" xmlns="http://www.w3.org/2000/svg">
+                <path d="M10 5 C7.24 5 5 7.24 5 10 V38 C5 40.76 7.24 43 10 43 H38 C40.76 43 43 40.76 43 38 V10 C43 7.24 40.76 5 38 5 H10 Z" fill="#FFFFFF" />
+                <path d="M38 5 H10 C7.24 5 5 7.24 5 10 V14 H43 V10 C43 7.24 40.76 5 38 5 Z" fill="#4285F4" />
+                <text x="24" y="34" fontSize="18" fontWeight="bold" fontFamily="system-ui, sans-serif" fill="#4285F4" textAnchor="middle">31</text>
+                <circle cx="10" cy="9.5" r="1.5" fill="#EA4335" />
+                <circle cx="14" cy="9.5" r="1.5" fill="#FBBC05" />
+                <circle cx="18" cy="9.5" r="1.5" fill="#34A853" />
+              </svg>
               <span>Google Calendar</span>
-              <span className="text-[8px] font-brand font-normal bg-[#F3F5F4] text-[#5E6762] px-2 py-1 rounded border border-border-light uppercase">Planned</span>
+              <span className="text-[8px] font-brand font-normal bg-[#F3F5F4] text-[#5E6762] px-2 py-1 rounded border border-[#D9DFDB] uppercase">Planned</span>
             </div>
           </div>
         </div>
